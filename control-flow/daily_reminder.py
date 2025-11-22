@@ -1,6 +1,7 @@
 # daily_reminder.py
 
 # Prompt for a single task
+"""
 task = input("Enter your task: ")
 priority = input("Priority (high/medium/low): ").lower()
 time_bound = input("Is it time-bound? (yes/no): ").lower()
@@ -24,3 +25,10 @@ else:
 
 # ✅ Correct print statement for the checker
 print(f"Reminder: {reminder}")
+"""
+
+length = 3.4
+breadth = 9.6
+def calculate_area(length, breadth):
+    area = length * breadth
+    return area
