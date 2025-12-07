@@ -11,5 +11,9 @@ class Book:
         return f"{self.title} by {self.author}, published in {self.year}"
     
     def __repr__(self):
-        return f"Book('{self.title}', '{self.author}', {self.year}"
+        return f"Book('{self.title}', '{self.author}', {self.year})"
+    
+
+book1 = Book("The three little Angels", "Bryannomis the Great", 2025)
+print(book1)
         
